@@ -7,8 +7,28 @@
     ogreten bir repo (anaprogram dosyasi)
 '''
 
+def topla1(sayi1, sayi2):
+    toplam = sayi1 + sayi2
+    print(f"{sayi1} + {sayi2} = {toplam}")
+
+def topla2(sayi1, sayi2):
+    toplam = sayi1 + sayi2
+    return toplam
+
 
 if __name__ == '__main__':
+
+    topla1(3,7)
+    t1 = topla2(3,7)
+
+    topla1(10,7)
+    t2 = topla2(10,7)
+
+
+    topla1(8,15)  
+    t3 = topla2(8,5)
+
+
     ogrenciler = {'12345':{'isim':'Ramazan Ozgur','soyisim':'Dogan'},
                   '12346':{'isim':'Hulya','soyisim':'Yaldiz'},
                   '12347':{'isim':'Yigit Kagan','soyisim':'Caliskan'}}
