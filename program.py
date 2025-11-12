@@ -21,7 +21,8 @@ Ogrenci Bilgi Sistemi v.{version}
 | listele | Ogrencileri listeler       |
 ----------------------------------------        
 ''')
-    
+
+
 def ogrenci_ekle(odict):
     print('----------------------------------------')
     ogrenci_sayisi = int(input('Ogrenci sayisini giriniz:'))
@@ -84,8 +85,10 @@ if __name__ == '__main__':
     while komut != 'kapat':
         if komut == 'ekle':            
             ogrenci_ekle(ogrenciler)
+            ogrenci_listele(ogrenciler)
         elif komut == 'sil':
             ogrenci_sil(ogrenciler)
+            ogrenci_listele(ogrenciler)
         elif komut == 'guncelle':
             ogrenci_guncelle(ogrenciler)
         elif komut == 'listele':
