@@ -77,7 +77,7 @@ if __name__ == '__main__':
     ogrenciler = {'12345':{'isim':'Ramazan Ozgur','soyisim':'Dogan'},
                   '12346':{'isim':'Hulya','soyisim':'Yaldiz'},
                   '12347':{'isim':'Yigit Kagan','soyisim':'Caliskan'}}
-  
+     
     print_intro('2.0.b1')
 
     komut = input('Komut giriniz:').strip().lower()
