@@ -17,3 +17,4 @@ INSERT INTO bolumler (bolum_id, ad, bina) VALUES
 deneme
 ali
 veli
+
