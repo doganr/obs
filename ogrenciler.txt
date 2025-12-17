@@ -1,0 +1,4 @@
+numara		adi		soyadi		vize		final
+123456		Ramazan		Dogan		45		30
+123457		Hulya		Yaldiz		70		90
+123458		Yigit		Dogan		60		45
